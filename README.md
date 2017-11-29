@@ -1,18 +1,18 @@
-# ripple-address-codec [![NPM](https://img.shields.io/npm/v/ripple-address-codec.svg)](https://npmjs.org/package/ripple-address-codec) [![Build Status](https://img.shields.io/travis/ripple/ripple-address-codec/master.svg)](https://travis-ci.org/ripple/ripple-address-codec) [![codecov.io](http://codecov.io/github/ripple/ripple-address-codec/coverage.svg?branch=master)](http://codecov.io/github/ripple/ripple-address-codec?branch=master)
+# chainsql-address-codec [![NPM](https://img.shields.io/npm/v/chainsql-address-codec.svg)](https://npmjs.org/package/chainsql-address-codec) [![Build Status](https://img.shields.io/travis/chainsql/chainsql-address-codec/master.svg)](https://travis-ci.org/chainsql/chainsql-address-codec) [![codecov.io](http://codecov.io/github/chainsql/chainsql-address-codec/coverage.svg?branch=master)](http://codecov.io/github/chainsql/chainsql-address-codec?branch=master)
 
 ## API
 
 ```js
-> var api = require('ripple-address-codec');
-> api.decodeSeed('sEdTM1uX8pu2do5XvTnutH6HsouMaM2')
+> var api = require('chainsql-address-codec');
+> api.decodeSeed('xxWFBu6veVgMnAqNf6YFRV2UENRd3')
 { version: [ 1, 225, 75 ],
   bytes: [ 76, 58, 29, 33, 63, 189, 251, 20, 199, 194, 141, 96, 148, 105, 179, 65 ],
   type: 'ed25519' }
-> api.decodeSeed('sn259rEFXrQrWyx3Q7XneWcwV6dfL')
+> api.decodeSeed('xxWFBu6veVgMnAqNf6YFRV2UENRd3')
 { version: 33,
   bytes: [ 207, 45, 227, 120, 251, 221, 126, 46, 232, 125, 72, 109, 251, 90, 123, 255 ],
   type: 'secp256k1' }
-> api.decodeAccountID('rJrRMgiRgrU6hDF4pgu5DXQdWyPbY35ErN')
+> api.decodeAccountID('z9VF7yQPLcKgUoHwMbzmQBjvPsyMy19ubs')
 [ 186,
   142,
   120,
@@ -35,7 +35,7 @@
   114 ]
 ```
 
-## And ?? There's more to the wonderful world then ripple
+## And ?? There's more to the wonderful world then chainsql
 
 We give you the kitchen sink.
 
@@ -59,6 +59,10 @@ We give you the kitchen sink.
       { alphabet: 'gsphnaf39wBUDNEGHJKLM4PQRST7VWXYZ2bcdeCr65jkm8oFqi1tuvAxyz',
         codec: [Object],
         base: 58 } },
+     chainsql:
+      { alphabet: 'zpxhncf39wBUDNEGHJKLM4PQRST7VWXYZ2badeCg65jkm8oFqi1tuvAsyr',
+        codec: [Object],
+        base: 58 },
   decode: [Function: decode],
   encode: [Function: encode],
   decodeEdSeed: [Function],
