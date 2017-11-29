@@ -1,12 +1,12 @@
 {
   "name": "chainsql-address-codec",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "encodes/decodes base58 encoded ripple identifiers",
   "main": "src/index.js",
   "license": "ISC",
   "dependencies": {
     "create-hash": "^1.1.2",
-    "x-address-codec-ext": "^0.7.2"
+    "x-address-codec-ext": "^0.7.3"
   },
   "repository": {
     "type": "git",
