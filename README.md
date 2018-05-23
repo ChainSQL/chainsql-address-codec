@@ -1,9 +1,9 @@
-# chainsql-address-codec [![NPM](https://img.shields.io/npm/v/chainsql-address-codec.svg)](https://npmjs.org/package/chainsql-address-codec) [![Build Status](https://img.shields.io/travis/chainsql/chainsql-address-codec/master.svg)](https://travis-ci.org/chainsql/chainsql-address-codec) [![codecov.io](http://codecov.io/github/chainsql/chainsql-address-codec/coverage.svg?branch=master)](http://codecov.io/github/chainsql/chainsql-address-codec?branch=master)
+# dac-address-codec [![NPM](https://img.shields.io/npm/v/dac-address-codec.svg)](https://npmjs.org/package/dac-address-codec) [![Build Status](https://img.shields.io/travis/dac/dac-address-codec/master.svg)](https://travis-ci.org/dac/dac-address-codec) [![codecov.io](http://codecov.io/github/dac/dac-address-codec/coverage.svg?branch=master)](http://codecov.io/github/dac/dac-address-codec?branch=master)
 
 ## API
 
 ```js
-> var api = require('chainsql-address-codec');
+> var api = require('dac-address-codec');
 > api.decodeSeed('xxWFBu6veVgMnAqNf6YFRV2UENRd3')
 { version: [ 1, 225, 75 ],
   bytes: [ 76, 58, 29, 33, 63, 189, 251, 20, 199, 194, 141, 96, 148, 105, 179, 65 ],
@@ -35,7 +35,7 @@
   114 ]
 ```
 
-## And ?? There's more to the wonderful world then chainsql
+## And ?? There's more to the wonderful world then dac
 
 We give you the kitchen sink.
 
